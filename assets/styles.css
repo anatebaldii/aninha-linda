@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url('img/background.jpg'); 
+    background: url('img/background.jpeg'); 
     color: var(--text-color);              
     background-size: cover; 
     background-position: center;

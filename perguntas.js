@@ -1,67 +1,39 @@
 criarCartao(
-    "Categoria",    
-    "Pergunta",  
-    "Resposta" 
+    "Geografia",    
+    "Qual é o maior país do mundo em área?",  
+    " O maior país do mundo em área é a Rússia." 
 );
 
 criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
+    "História",    
+    "Quem foi o primeiro presidente do Brasil?",  
+    "O primeiro presidente do Brasil foi Deodoro da Fonseca." 
 );
 
 criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
+    "Ciência",    
+    "Qual é o elemento químico representado pelo símbolo O na tabela periódica?",  
+    "O símbolo O representa o oxigênio.
+
+" 
 );
 
 criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
+    "Esportes",    
+    "Em que esporte o Brasil é conhecido por ter conquistado várias Copas do Mundo?",  
+    "Futebol." 
 );
 
 criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
+    "Literatura",    
+    "Quem escreveu "Dom Casmurro"?",  
+    "Machado de Assis." 
 );
 
 criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
-);
-
-criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
-);
-
-criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
-);
-
-criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
-);
-
-criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
-);
-
-criarCartao(
-    "Dinossauro",    
-    "Qual o mlr dinossauro",  
-    "todos" 
+    "Música",    
+    "Qual banda britânica é famosa pelo álbum "Abbey Road"?",  
+    "The Beatles." 
 );
 
 document.querySelectorAll('#container .cartao').forEach(cartao => {
