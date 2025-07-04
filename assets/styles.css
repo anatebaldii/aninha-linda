@@ -1,0 +1,97 @@
+:root {
+    --text-color: #E0F7FA;          /* Cor clara de texto, próxima do azul claro */
+    --card-front-color: rgba(0, 96, 128, 0.7);  /* Azul escuro translúcido para a frente do cartão */
+    --card-back-color: #00ACC1;     /* Azul turquesa mais vibrante para o verso do cartão */
+    --footer-bg-color: #004D40;     /* Verde azulado escuro para o rodapé */
+    --footer-text-color: #B2DFDB;   /* Azul claro esverdeado para o texto do rodapé */
+}
+
+body {
+    background: url('img/background.jpg'); 
+    color: var(--text-color);              
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+    display: flex;               
+    flex-wrap: wrap;              
+    justify-content: space-between; 
+    padding: 4rem;                
+}
+
+.cartao {
+    background-color: var(--card-front-color); /* Fundo translúcido da frente do cartão */
+    backdrop-filter: blur(10px);                
+    border: 1px solid var(--text-color);                  
+    margin: 1rem 1rem;                      
+    height: 20rem;                            
+    flex-grow: 1;                               
+    flex-basis: calc(33% - 6rem);              
+    border-radius: 0.4rem;                      
+}
+
+.cartao__conteudo {
+    text-align: center;                          
+    height: 100%;                               
+    transform-style: preserve-3d;               
+    transition: transform 300ms ease-in-out;     
+}
+
+.cartao__conteudo p {
+    padding: 2rem;                               
+    margin-top: 4rem;                           
+}
+
+.cartao__conteudo h3 {
+    color: var(--text-color);                             
+    border: 1px solid var(--text-color);                   
+    text-align: left;                         
+    padding: 0.5rem;                           
+    position: absolute;                         
+    margin: 0.6rem;                             
+    border-radius: 0.6rem;                       
+    font-size: 1vw;                            
+    backface-visibility: hidden;                 
+}
+
+.cartao__conteudo__pergunta {
+    color: var(--text-color);                             
+    font-weight: 500;                            
+}
+
+.cartao__conteudo__resposta {
+    color: var(--card-back-color);               
+    font-weight: 700;                            
+}
+
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);               
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+    backface-visibility: hidden;               
+    position: absolute;                          
+    height: 100%;                                
+    width: 100%;                                
+}
+
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);                 
+}
+
+footer {
+    background-color: var(--footer-bg-color);    
+    color: var(--footer-text-color);             
+    position: fixed;                             
+    bottom: 0;                                   
+    width: 100%;                                
+}
+
+footer p {
+    text-align: center;                          
+    font-size: 1rem;                             
+}
