@@ -13,9 +13,9 @@ criarCartao(
 criarCartao(
     "Ciência",    
     "Qual é o elemento químico representado pelo símbolo O na tabela periódica?",  
-    "O símbolo O representa o oxigênio.
+    "O símbolo O representa o oxigênio."
 
-" 
+
 );
 
 criarCartao(
@@ -26,13 +26,13 @@ criarCartao(
 
 criarCartao(
     "Literatura",    
-    "Quem escreveu "Dom Casmurro"?",  
-    "Machado de Assis." 
+    "Quem escreveu Dom Casmurro?",  
+    "Machado de Assis."
 );
 
 criarCartao(
     "Música",    
-    "Qual banda britânica é famosa pelo álbum "Abbey Road"?",  
+    "Qual banda britânica é famosa pelo álbum Abbey Road?",  
     "The Beatles." 
 );
 
