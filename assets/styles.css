@@ -1,9 +1,9 @@
 :root {
-    --text-color: #E0F7FA;          /* Cor clara de texto, próxima do azul claro */
-    --card-front-color: rgba(0, 96, 128, 0.7);  /* Azul escuro translúcido para a frente do cartão */
-    --card-back-color: #00ACC1;     /* Azul turquesa mais vibrante para o verso do cartão */
-    --footer-bg-color: #004D40;     /* Verde azulado escuro para o rodapé */
-    --footer-text-color: #B2DFDB;   /* Azul claro esverdeado para o texto do rodapé */
+    --text-color: #6d248a;          /* Cor clara de texto, próxima do azul claro */
+    --card-front-color: rgba(156, 112, 192, 0.7);  /* Azul escuro translúcido para a frente do cartão */
+    --card-back-color: #63247c;     /* Azul turquesa mais vibrante para o verso do cartão */
+    --footer-bg-color: #4f2996;     /* Verde azulado escuro para o rodapé */
+    --footer-text-color: #3b1188;   /* Azul claro esverdeado para o texto do rodapé */
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} 
 
 #container {
     display: flex;               
